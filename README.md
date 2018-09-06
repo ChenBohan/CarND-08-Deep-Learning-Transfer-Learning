@@ -1,4 +1,4 @@
-# AI-ML-DL-05-Intro-to-Transfer-Learning
+# AI-Deep-Learning-05-Intro-to-Transfer-Learning
 Udacity Self-Driving Car Engineer Nanodegree: Transfer Learning
 
 ## Guide for How to Use Transfer Learning
