@@ -1,4 +1,5 @@
-# AI-Deep-Learning-05-Intro-to-Transfer-Learning
+# CarND-08-Deep-Learning-Transfer-Learning
+
 Udacity Self-Driving Car Engineer Nanodegree: Transfer Learning
 
 ## Further reading
