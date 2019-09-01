@@ -13,31 +13,27 @@ Udacity Self-Driving Car Engineer Nanodegree: Transfer Learning
 
 ### Case 1: Small Data Set, Similar Data
 
-Add a new fully connected layer that matches the number of classes in the new data set.
+- freeze all the weights from the pre-trained network
 
-To avoid overfitting on the small data set, the weights of the original network will be held constant rather than re-training the weights. 
+- train the network to update the weights of the new fully connected layer
 
 ### Case 2: Small Data Set, Different Data
 
-Add to the remaining pre-trained layers a new fully connected layer that matches the number of classes in the new data set.
+- slice off most of the pre-trained layers near the beginning of the network
 
-The original training set and the new data set do not share higher level features. 
+- freeze all the weights from the pre-trained network
 
-In this case, the new network will only use the layers containing lower level features.
+- train the network to update the weights of the new fully connected layer
 
 ### Case 3: Large Data Set, Similar Data
 
-Remove the last fully connected layer and replace with a layer matching the number of classes in the new data set.
-
-We can re-train all of the weights.
-
-Because the original training set and the new data set share higher level features, the entire neural network is used as well.
+- re-train the entire neural network
 
 ### Case 4: Large Data Set, Different Data
 
-Remove the last fully connected layer and replace with a layer matching the number of classes in the new data set.
+- retrain the network from scratch
 
-If using the pre-trained network as a starting point does not produce a successful model, another option is to randomly initialize the convolutional neural network weights and train the network from scratch.
+- alternatively, you could just use the same strategy as the "large and similar" data case
 
 ## How to apply transfer learning?
 
