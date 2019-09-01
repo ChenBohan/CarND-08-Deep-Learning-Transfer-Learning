@@ -1,6 +1,14 @@
 # AI-Deep-Learning-05-Intro-to-Transfer-Learning
 Udacity Self-Driving Car Engineer Nanodegree: Transfer Learning
 
+## Further reading
+
+- [Kaggle](https://www.kaggle.com/)
+
+- Import a pre-trained network by using the [Keras Applications models](https://keras.io/applications/)
+
+- [original research paper on AlexNet](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
+
 ## Guide for How to Use Transfer Learning
 
 ### Case 1: Small Data Set, Similar Data
